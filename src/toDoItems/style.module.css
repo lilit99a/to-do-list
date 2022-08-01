@@ -1,0 +1,39 @@
+.checkedInput {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  color: black;
+}
+.toDoTexts {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  color: #4e4e4e;
+  margin-bottom: 10px;
+  margin-left: 16px;
+}
+.deleteButton {
+  width: 22px;
+  height: 23px;
+  border-radius: 10px;
+  border: solid 1px #eb3d3d;
+  color: #eb3d3d;
+  cursor: pointer;
+  background-color: #ffffff;
+  margin-left: 15px;
+}
+
+.toDoTexts {
+  width: 280px;
+  height: auto;
+  border: solid 1px #ffffff;
+}
+.toDoItems {
+  display: flex;
+  cursor: pointer;
+}
+.toDoItems :hover{
+  height: 30px;
+  border-radius: 15px;
+  background-color :#D3D3D3;
+}

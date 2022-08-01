@@ -1,0 +1,32 @@
+.createNewItem {
+  display: flex;
+  margin-top: 16px;
+}
+.createNewItemButton  {
+  border-radius: 16px;
+  border: 1px solid #3d82eb;
+  color: #3d82eb;
+  background-color: #FFFFFF;
+  width: 21px;
+  height: 21px;
+  cursor: pointer;
+}
+.createNewItem :nth-child(2) {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #3d82eb;
+  margin: 0px;
+  margin-left: 16px;
+  width: 200px;
+  height: 20px;
+}
+.addInput{
+  width: 200px;
+  height: 20px;
+  border: 1px solid #FFFFFF;
+}
+.addInput::placeholder{
+  color: #3d82eb;
+}
