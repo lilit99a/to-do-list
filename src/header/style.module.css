@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 32px;
+}
+.header :first-child {
+  display: flex;
+  justify-content: space-between;
+}
+.headerImageAndText img {
+  width: 17px;
+  height: 16px;
+  margin-right: 17px;
+}
+.headerImageAndText p {
+  margin: 0px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #323232;
+}
+.menuIcons{
+  display: flex;
+}
+.menuIcons :first-child{
+  cursor: pointer;
+}
+.menuIcons :nth-child(2){
+  cursor: pointer;
+}
